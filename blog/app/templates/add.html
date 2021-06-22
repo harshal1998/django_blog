@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body,table,td,button{
+        font-family:calibri;
+        font-size:20px;
+        }
+
+        td{
+        padding:5px;
+        align:center
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="/" method="POST">
+    <table align="center">
+        <tr>
+            <td><label>Name</label></td>
+            <td>{{form.Name}}</td>
+        </tr>
+
+<tr>
+            <td><label>Text</label></td>
+            <td>{{form.Text}}</td>
+        </tr>
+
+<tr>
+            <td colspan="2"><p align="center"><button type="submit">Submit</button></p></td>
+        </tr>
+
+</table>
+</form>
+
+</body>
+</html>
